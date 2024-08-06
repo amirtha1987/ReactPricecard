@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPricecard/static/css/main.b72bbcd2.css",
+    "main.js": "/ReactPricecard/static/js/main.ee6cb3d7.js",
+    "index.html": "/ReactPricecard/index.html",
+    "main.b72bbcd2.css.map": "/ReactPricecard/static/css/main.b72bbcd2.css.map",
+    "main.ee6cb3d7.js.map": "/ReactPricecard/static/js/main.ee6cb3d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b72bbcd2.css",
+    "static/js/main.ee6cb3d7.js"
+  ]
+}
