@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ReactPricecard/static/css/main.b72bbcd2.css",
-    "main.js": "/ReactPricecard/static/js/main.ee6cb3d7.js",
+    "main.js": "/ReactPricecard/static/js/main.538bf0eb.js",
     "index.html": "/ReactPricecard/index.html",
     "main.b72bbcd2.css.map": "/ReactPricecard/static/css/main.b72bbcd2.css.map",
-    "main.ee6cb3d7.js.map": "/ReactPricecard/static/js/main.ee6cb3d7.js.map"
+    "main.538bf0eb.js.map": "/ReactPricecard/static/js/main.538bf0eb.js.map"
   },
   "entrypoints": [
     "static/css/main.b72bbcd2.css",
-    "static/js/main.ee6cb3d7.js"
+    "static/js/main.538bf0eb.js"
   ]
 }
