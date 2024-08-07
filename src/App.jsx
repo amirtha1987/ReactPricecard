@@ -1,5 +1,5 @@
 import React from "react";
-import card from ".src/Components/card";
+import Pricecard from "./components/Pricecard";
 
 function App() {
   let data = [
@@ -8,7 +8,7 @@ function App() {
       price: 0,
       user: "Single User",
       isUser: true,
-      storage: "50GB Storage",
+      storage: "5 GB",
       isStorage: true,
       publicProjects: "Unlimited Public Projects",
       isPublicProjects: true,
@@ -28,7 +28,7 @@ function App() {
       price: 9,
       user: "5 Users",
       isUser: true,
-      storage: "50GB Storage",
+      storage: "50 GB",
       isStorage: true,
       publicProjects: "Unlimited Public Projects",
       isPublicProjects: true,
@@ -48,7 +48,7 @@ function App() {
       price: 49,
       user: "Unlimited Users",
       isUser: true,
-      storage: "50GB Storage",
+      storage: "150 GB",
       isStorage: true,
       publicProjects: "Unlimited Public Projects",
       isPublicProjects: true,
@@ -70,7 +70,7 @@ function App() {
         <div className="container">
           <div className="row">
             {data.map((e, i) => {
-              return <Card data={e} key={i} />;
+              return <Pricecard price={e} key={i} />;
             })}
           </div>
         </div>
@@ -78,4 +78,5 @@ function App() {
     </>
   );
 }
+
 export default App;
